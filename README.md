@@ -31,14 +31,9 @@ Program to find the maximum marks using the list method max().
 Developed by: Meenakshi M
 RegisterNumber: 21003572
 '''
-def max_marks(list1):
-    # write your code here
-    max1=list1[0]
-    for i in list1:
-        if i>max1:
-            max1 = i
-    return max1
-max_marks([88, 67, 77, 93, 95, 11, 67, 89, 56, 89])
+def max_marks(marks):
+    a=max(marks)
+    return a
 ```
 iii) # To find the maximum marks without using builtin functions.
 ```
